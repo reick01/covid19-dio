@@ -1,0 +1,28 @@
+{
+"compilerOptions": {
+ "target":"ES6",
+ "baseUrl": "src",
+ "jsx": "react",
+ "paths": {
+     "Components:/*":[
+         "./Components/*"
+     ],
+     
+     "Containers:/*":[
+        "./Containers/*"
+    ],
+
+    "Commons:/*":[
+        "./Commons/*"
+    ],
+
+    "Assets:/*":[
+        "./Assets/*"
+    ]
+ }
+},
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
